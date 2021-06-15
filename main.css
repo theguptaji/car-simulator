@@ -48,9 +48,9 @@
 
 /* right back */
 .g32696-toggle {
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) skewY(39deg);
   transform-origin: 76px 132px;
-  transition: transform 1s;
+  transition: transform 0.5s;
 }
 
 /*  car body */
@@ -61,14 +61,14 @@
 .g130-toggle {
   transform: rotate(40deg);
   transform-origin: 125px 175px;
-  transition: transform 1s;
+  transition: transform 0.5s;
 }
 
 /* left back */
 .g136-toggle {
-  transform: rotate(45deg);
+  transform: rotate(45deg) skewY(-39deg);
   transform-origin: 119px 132px;
-  transition: transform 1s;
+  transition: transform 0.5s;
 }
 
 /* trunk */
