@@ -1,16 +1,19 @@
 .center-pane {
   background-color: #f1f1f1;
   width: 50%;
-  min-height: 80%;
+  height: 85%;
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+  padding-top: 30px;
+  border-radius: 15px;
 }
 
 /* right front */
 #g32682:hover {
-  transform: rotate(-45deg);
+  transform: rotate(-40deg);
   transform-origin: 67px 175px;
   transition: transform 1s;
 }
@@ -28,7 +31,7 @@
 
 /* left front */
 #g130:hover {
-  transform: rotate(45deg);
+  transform: rotate(40deg);
   transform-origin: 125px 175px;
   transition: transform 1s;
 }
