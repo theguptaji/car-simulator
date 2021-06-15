@@ -1,5 +1,10 @@
 # Car simulator
-<img width="1037" alt="Screen Shot 2021-06-16 at 6 28 33" src="https://user-images.githubusercontent.com/24350635/122126019-1d66d380-ce6c-11eb-90db-ca344941253e.png">
+Starting screen             |  After opening all doors
+:-------------------------:|:-------------------------:
+<img width="789" alt="Screen Shot 2021-06-16 at 8 44 27" src="https://user-images.githubusercontent.com/24350635/122137271-3331c400-ce7f-11eb-922b-b784cb85e5e2.png">  |  <img width="827" alt="Screen Shot 2021-06-16 at 8 44 45" src="https://user-images.githubusercontent.com/24350635/122137277-375de180-ce7f-11eb-859e-ae7b3a66a138.png">
+
+
+
 
 ## A GUI for simulating a car on web
 ### Current features
