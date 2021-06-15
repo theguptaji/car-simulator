@@ -1,0 +1,49 @@
+.center-pane {
+  background-color: #f1f1f1;
+  width: 50%;
+  min-height: 80%;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+/* right front */
+#g32682:hover {
+  transform: rotate(-45deg);
+  transform-origin: 67px 175px;
+  transition: transform 1s;
+}
+
+/* right back */
+#g32696:hover {
+  transform: rotate(-45deg);
+  transform-origin: 76px 132px;
+  transition: transform 1s;
+}
+
+/*  car body */
+#g32762 {
+}
+
+/* left front */
+#g130:hover {
+  transform: rotate(45deg);
+  transform-origin: 125px 175px;
+  transition: transform 1s;
+}
+
+/* left back */
+#g136:hover {
+  transform: rotate(45deg);
+  transform-origin: 119px 132px;
+  transition: transform 1s;
+}
+
+/* trunk */
+#path32797 {
+  display: none;
+}
+#path32797:hover {
+  display: block;
+}
