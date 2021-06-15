@@ -17,37 +17,37 @@
   grid-row: 1/2;
 }
 
-.keylf {
-  grid-column: 1/2;
-  grid-row: 2/3;
-}
 .car {
   justify-self: center;
   grid-column: 2/3;
   grid-row: 1/5;
 }
-.keyrf {
+.keylf {
   grid-column: 3/4;
-  grid-row: 2/3;
+  grid-row: 3/4;
 }
-.keylb {
+.keyrf {
   grid-column: 1/2;
   grid-row: 3/4;
 }
-.keyrb {
+.keylb {
   grid-column: 3/4;
-  grid-row: 3/4;
+  grid-row: 2/3;
+}
+.keyrb {
+  grid-column: 1/2;
+  grid-row: 2/3;
 }
 
 /* right front */
-#g32682:hover {
+.g32682-toggle {
   transform: rotate(-40deg);
   transform-origin: 67px 175px;
-  transition: transform 1s;
+  transition: transform 0.5s;
 }
 
 /* right back */
-#g32696:hover {
+.g32696-toggle {
   transform: rotate(-45deg);
   transform-origin: 76px 132px;
   transition: transform 1s;
@@ -58,14 +58,14 @@
 }
 
 /* left front */
-#g130:hover {
+.g130-toggle {
   transform: rotate(40deg);
   transform-origin: 125px 175px;
   transition: transform 1s;
 }
 
 /* left back */
-#g136:hover {
+.g136-toggle {
   transform: rotate(45deg);
   transform-origin: 119px 132px;
   transition: transform 1s;
@@ -75,7 +75,7 @@
 #path32797 {
   display: none;
 }
-#path32797:hover {
+#path32797-toggle {
   display: block;
 }
 
@@ -103,4 +103,11 @@
 
 .btn:active {
   transform: translateY(2px);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(2, 66, 21)),
+    to(rgb(10, 187, 104))
+  );
 }

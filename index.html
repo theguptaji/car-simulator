@@ -7,21 +7,19 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src='main.js'></script>
-</head>
-<body>
-   <div class="container">
-   <div class="emptyFirst"></div>
-      <button class="btn keylb">
-         <i class="fa fa-key"></i></button>
-      <button class="btn keyrb"><i class="fa fa-key"></i></button>
-      <button class="btn keylf"><i class="fa fa-key"></i></button>
-      <button class="btn keyrf"><i class="fa fa-key"></i></button>
-      <!-- orange color #ff673a -->
-      <svg
-      width="113mm"
-      height="150.56798mm"
-      viewBox="-21.7 0 113 150.56797"
+   </head>
+   <body>
+      <div class="container">
+         <div class="emptyFirst"></div>
+         <button onclick="toggleDoor(event)" data-door="g136" class="btn keylb"><i data-door="g136" class="fa fa-key"></i></button>
+         <button onclick="toggleDoor(event)" data-door="g32696" class="btn keyrb"><i data-door="g32696" class="fa fa-key"></i></button>
+         <button onclick="toggleDoor(event)" data-door="g130" class="btn keylf"><i data-door="g130" class="fa fa-key"></i></button>
+         <button onclick="toggleDoor(event)" data-door="g32682" class="btn keyrf"><i data-door="g32682" class="fa fa-key"></i></button>
+         <!-- orange color #ff673a -->
+         <svg
+         width="113mm"
+         height="150.56798mm"
+         viewBox="-21.7 0 113 150.56797"
       version="1.1"
       id="car"
       inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
@@ -204,5 +202,6 @@
    </svg>
 
     </div>
+    <script src='./main.js'></script>
 </body>
 </html>
