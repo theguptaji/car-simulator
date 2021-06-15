@@ -11,11 +11,26 @@
    <body>
       <div class="container">
          <div class="emptyFirst"></div>
-         <button onclick="toggleDoor(event)" data-door="path32797" class="btn keytrunk"><i data-door="path32797" class="fa fa-key"></i></button>
-         <button onclick="toggleDoor(event)" data-door="g136" class="btn keylb"><i data-door="g136" class="fa fa-key"></i></button>
-         <button onclick="toggleDoor(event)" data-door="g32696" class="btn keyrb"><i data-door="g32696" class="fa fa-key"></i></button>
-         <button onclick="toggleDoor(event)" data-door="g130" class="btn keylf"><i data-door="g130" class="fa fa-key"></i></button>
-         <button onclick="toggleDoor(event)" data-door="g32682" class="btn keyrf"><i data-door="g32682" class="fa fa-key"></i></button>
+         <div class="keytrunk">
+            <button onclick="toggleDoor(event)" data-door="path32797" class="btn"><i data-door="path32797" class="fa fa-key"></i></button>
+            <label for="male">Trunk</label>
+         </div>
+         <div class="keylb">
+            <button onclick="toggleDoor(event)" data-door="g136" class="btn"><i data-door="g136" class="fa fa-key"></i></button>
+            <label for="male">LeftBackDoor</label>
+         </div>
+         <div class="keyrb">
+            <button onclick="toggleDoor(event)" data-door="g32696" class="btn"><i data-door="g32696" class="fa fa-key"></i></button>
+            <label for="male">RightBackDoor</label>
+         </div>
+         <div class="keylf">
+            <button onclick="toggleDoor(event)" data-door="g130" class="btn"><i data-door="g130" class="fa fa-key"></i></button>
+            <label for="male">LeftFrontDoor</label>
+         </div>
+         <div class="keyrf">
+            <button onclick="toggleDoor(event)" data-door="g32682" class="btn"><i data-door="g32682" class="fa fa-key"></i></button>
+            <label for="male">RightFrontDoor</label>
+         </div>
          <!-- orange color #ff673a -->
          <svg
          width="113mm"

@@ -41,6 +41,8 @@
 .keytrunk {
   grid-column: 3/4;
   grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
 }
 
 /* right front */
@@ -101,13 +103,15 @@
     from(#000),
     to(#333)
   );
+  width: 60px;
   height: 40px;
-
+  margin-bottom: 6px;
   border-radius: 5px;
   color: white;
   padding: 12px 16px;
   font-size: 16px;
   cursor: pointer;
+  align-self: center;
 }
 
 .btn:active {
@@ -119,4 +123,8 @@
     from(rgb(2, 66, 21)),
     to(rgb(10, 187, 104))
   );
+}
+
+label {
+  font-family: monospace;
 }
