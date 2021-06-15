@@ -6,7 +6,7 @@ toggleDoor = (event) => {
   //     return;
   //   }
   //   console.log(event);
-  var snd = new Audio("car-door-open-1.wav");
+  var snd = new Audio("sound/car-door-open-1.wav");
   snd.play();
   var door = event.target.getAttribute("data-door");
   console.log("door_id:", door);
