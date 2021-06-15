@@ -38,6 +38,10 @@
   grid-column: 1/2;
   grid-row: 2/3;
 }
+.keytrunk {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
 
 /* right front */
 .g32682-toggle {
@@ -73,10 +77,15 @@
 
 /* trunk */
 #path32797 {
-  display: none;
 }
-#path32797-toggle {
-  display: block;
+#path32798 {
+  transform: scale(0.7);
+  transform-origin: 95px 80px;
+}
+
+.path32797-toggle {
+  transform: scale(1, 0.7);
+  transform-origin: 80px 95px;
 }
 
 .btn {
