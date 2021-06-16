@@ -1,18 +1,93 @@
+body {
+  font-family: monospace;
+}
+.wrapper {
+  display: grid;
+  gap: 20px;
+  justify-items: center;
+  grid-template-areas:
+    "header"
+    "sidebar"
+    "main"
+    "footer";
+}
+
+.main-head {
+  grid-area: header;
+}
+.content {
+  grid-area: main;
+  display: grid;
+  justify-items: center;
+}
+.side {
+  grid-area: sidebar;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+.main-footer {
+  grid-area: footer;
+}
+
+/* @media (min-width: 500px) {
+  .wrapper {
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:
+      "header  header"
+      "sidebar content"
+      "footer footer";
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+} */
+
+@media (min-width: 900px) {
+  .wrapper {
+    grid-template-columns: 1fr 3fr;
+    grid-auto-rows: minmax(min-content, max-content);
+    grid-template-areas:
+      "header header"
+      "sidebar main"
+      "footer footer";
+  }
+  .container {
+    width: 80%;
+  }
+}
+
 /* *********************************************** */
 /* GRID RELATED CSS */
+.sidebar {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  width: 80%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-userpic img {
+  width: 50%;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+
 .container {
   background-color: #f1f1f1;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  height: 85%;
-  transform: translate(-50%, -50%);
+  width: 90%;
   padding: 20px;
   text-align: center;
   border-radius: 15px;
   display: grid;
   grid-template-columns: 0.5fr 1fr 0.5fr;
   grid-template-rows: 25% 25% 25% 25%;
+  height: 580px;
 }
 
 .emptyFirst {
@@ -26,22 +101,35 @@
 .keylf {
   grid-column: 3/4;
   grid-row: 3/4;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
 }
 .keyrf {
   grid-column: 1/2;
   grid-row: 3/4;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
 }
 .keylb {
   grid-column: 3/4;
   grid-row: 2/3;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
 }
 .keyrb {
   grid-column: 1/2;
   grid-row: 2/3;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
 }
 .keytrunk {
   grid-column: 3/4;
   grid-row: 1/2;
+  align-self: center;
   display: flex;
   flex-direction: column;
 }
