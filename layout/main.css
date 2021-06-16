@@ -65,7 +65,8 @@ body {
 }
 
 .container {
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
+  background: radial-gradient(white 30%, transparent 40%, #f1f1f1 60%);
   width: 90%;
   padding: 20px;
   text-align: center;
