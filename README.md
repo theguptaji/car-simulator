@@ -1,17 +1,24 @@
 # Car simulator
 Starting screen             |  After opening all doors
 :-------------------------:|:-------------------------:
-<img width="789" alt="Screen Shot 2021-06-16 at 8 44 27" src="https://user-images.githubusercontent.com/24350635/122137271-3331c400-ce7f-11eb-922b-b784cb85e5e2.png">  |  <img width="827" alt="Screen Shot 2021-06-16 at 8 44 45" src="https://user-images.githubusercontent.com/24350635/122137277-375de180-ce7f-11eb-859e-ae7b3a66a138.png">
+<img width="889" alt="Screen Shot 2021-06-16 at 20 41 31" src="https://user-images.githubusercontent.com/24350635/122213169-a1a86d80-cee3-11eb-84ec-2e16006e3c00.png">  |  <img width="871" alt="Screen Shot 2021-06-16 at 20 42 22" src="https://user-images.githubusercontent.com/24350635/122213190-a8cf7b80-cee3-11eb-9fc9-68ffd8378d60.png">
 
 ## Simulator with layout page
-<img width="1119" alt="Screen Shot 2021-06-16 at 12 01 25" src="https://user-images.githubusercontent.com/24350635/122151500-a39a0e80-ce9a-11eb-9ec1-151bbebdcb05.png">
+<img width="1260" alt="Screen Shot 2021-06-16 at 20 41 03" src="https://user-images.githubusercontent.com/24350635/122213239-b71d9780-cee3-11eb-85c4-8f69fd12180b.png">
+
 
 ## A GUI for simulating a car on web
 ### Current features
-* Opening/Closing door via toggle buttons
-* Sound effect on toggle click click
+* Opening/Closing door/trunk via toggle buttons
+* Sound effect on toggle click
 * Responsive design made with Grid layout
 * Royalty free illustration **designed by author : Aman Gupta**
+* Car lock/unlock button with sound effect
 ### Upcoming features
-* Lock/Unlock status of doors, whole vehicle
-* Battery, Temperature, Seat positions settings dashboard
+* Battery, Temperature, AC and Seat positions settings via illustration and animations
+* Better door pivoting.
+### Upcoming technical features
+* Data structure to integrate with `Digital twin(Ditto)`.
+* Use `event bubbling` to add onclick listener to main simulator board.
+* `Throttling` to limit the events fired.
+* Monolithic --> `Modular` code
