@@ -1,5 +1,6 @@
 body {
   font-family: monospace;
+  background: radial-gradient(rgb(82, 82, 82) 20%, #141414 80%);
 }
 .wrapper {
   display: grid;
@@ -14,6 +15,7 @@ body {
 
 .main-head {
   grid-area: header;
+  color: #8b8b8b;
 }
 .content {
   grid-area: main;
@@ -28,6 +30,10 @@ body {
 }
 .main-footer {
   grid-area: footer;
+  color: #8b8b8b;
+}
+.main-footer > a {
+  color: teal;
 }
 
 @media (min-width: 900px) {
@@ -70,7 +76,7 @@ body {
 
 .container {
   /* background-color: #f1f1f1; */
-  background: radial-gradient(white 30%, transparent 40%, #f1f1f1 60%);
+  background: radial-gradient(white 40%, #f1f1f1 54%);
   width: 90%;
   padding: 20px;
   text-align: center;
