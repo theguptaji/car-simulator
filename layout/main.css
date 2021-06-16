@@ -156,15 +156,21 @@ body {
 /* SVG TRANSFORMATION RELATED CSS */
 
 /* right front */
+#g32682 {
+  transform: scale(1);
+}
 .g32682-toggle {
-  transform: rotate(-40deg);
+  transform: rotate(-40deg) !important;
   transform-origin: 67px 175px;
   transition: transform 0.5s;
 }
 
 /* right back */
+#g32696 {
+  transform: scale(1);
+}
 .g32696-toggle {
-  transform: rotate(-45deg) skewY(39deg);
+  transform: rotate(-45deg) skewY(39deg) !important;
   transform-origin: 76px 132px;
   transition: transform 0.5s;
 }
@@ -174,30 +180,37 @@ body {
 }
 
 /* left front */
+#g130 {
+  transform: scale(1);
+}
 .g130-toggle {
-  transform: rotate(40deg);
+  transform: rotate(40deg) !important;
   transform-origin: 125px 175px;
   transition: transform 0.5s;
 }
 
 /* left back */
+#g136 {
+  transform: scale(1);
+}
 .g136-toggle {
-  transform: rotate(45deg) skewY(-39deg);
+  transform: rotate(45deg) skewY(-39deg) !important;
   transform-origin: 119px 132px;
   transition: transform 0.5s;
 }
 
 /* trunk */
 #path32797 {
+  transform: scale(1);
 }
+.path32797-toggle {
+  transform: scale(1, 0.7) !important;
+  transform-origin: 80px 95px;
+}
+
 #path32798 {
   transform: scale(0.7);
   transform-origin: 95px 80px;
-}
-
-.path32797-toggle {
-  transform: scale(1, 0.7);
-  transform-origin: 80px 95px;
 }
 
 /* *********************************************** */

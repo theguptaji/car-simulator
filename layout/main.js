@@ -1,4 +1,5 @@
 toggleDoor = (event) => {
+  console.log(event.target);
   var snd = new Audio("sound/car-door-open-1.wav");
   snd.play();
   var door = event.target.getAttribute("data-door");
