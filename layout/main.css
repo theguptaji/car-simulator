@@ -45,11 +45,15 @@ body {
       "sidebar main"
       "footer footer";
   }
+  .side {
+    justify-items: end;
+  }
   .container {
     width: 80%;
     height: 580px !important;
   }
   .sidebar {
+    width: 80% !important;
     height: 580px !important;
   }
 }
@@ -61,7 +65,7 @@ body {
   padding: 20px;
   text-align: center;
   border-radius: 15px;
-  width: 80%;
+  width: 90%;
   height: 610px;
   display: flex;
   flex-direction: column;
